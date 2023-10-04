@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 
+var things = require('./things.js');
+
 app.get('/', function(req, res) {
     res.send('ini dari GET HUHUHUHUH');
 })
@@ -8,5 +10,7 @@ app.get('/', function(req, res) {
 app.post('/', function(req, res) {
     res.send('ini dari POST WAKAKKAKA');
 })
+
+app.use('/things', things);
 
 app.listen(3000)
