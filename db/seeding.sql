@@ -7,7 +7,7 @@ CREATE TABLE _USER(
 );
 
 INSERT INTO _USER (ID, Name, Email)
-VALUES (1, 'Akhmad Dani Munif', 'dani@mail.com');
+VALUES (1, 'Akhmad DaniASDSAD Munif', 'dani@mail.com');
 
 INSERT INTO _USER (ID, Name, Email)
 VALUES (2, 'Eko Pandu Nugroho', 'eko@mail.com');
